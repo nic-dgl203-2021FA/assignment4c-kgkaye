@@ -1,0 +1,19 @@
+@include media-md {
+
+    .portfolio {
+        &__items {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .text-title {
+            font-size: 3rem;
+        }
+    }
+}
+
+
+@include media-lg {
+}
+
+
+@include media-xl {
+}
