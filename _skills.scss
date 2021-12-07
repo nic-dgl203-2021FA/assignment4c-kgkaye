@@ -1,4 +1,6 @@
 .skills {
+    padding: 2rem;
+
     &__main-image {
         height: 30vh;
         width: 100%;
@@ -19,6 +21,8 @@
             font-size: 2rem;
             margin-block-end: 1.5rem;
         }
+
+      
     }
     
     &__items {
@@ -40,6 +44,7 @@
     &__title {
         justify-self:center;
         align-self: center;
+        color: $secondary-color;
     }
     
     &__skill {

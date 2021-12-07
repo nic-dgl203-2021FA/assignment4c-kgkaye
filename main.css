@@ -6,8 +6,8 @@
 }
 
 .home {
-  height: 100%;
-  padding-top: 30vh;
+  height: 90%;
+  padding-top: 25vh;
   overflow: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -19,10 +19,13 @@
 }
 .home__name {
   font-size: 5rem;
-  color: #A55364;
+  color: #90C0D1;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #A55364;
+  border-bottom: 2px dashed #90C0D1;
+}
+.home__sub {
+  color: #cb8190;
 }
 
 .nav {
@@ -48,7 +51,7 @@
 }
 .menu-nav__link {
   display: block;
-  color: white;
+  color: #cb8190;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -86,12 +89,20 @@
   grid-gap: 2rem;
 }
 .portfolio__item {
+  padding-bottom: 2rem;
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
 .portfolio__item img {
   width: 100%;
+  padding-bottom: 1.5rem;
+}
+.portfolio__item h3 {
+  color: #90C0D1;
+}
+.portfolio__item1 {
+  width: 60vw;
 }
 
 .about__main-image {
@@ -156,6 +167,7 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  color: #90C0D1;
   width: 60vw;
   margin: 10rem auto 0 auto;
   display: grid;
@@ -163,6 +175,9 @@
   grid-gap: 2rem;
 }
 
+.skills {
+  padding: 2rem;
+}
 .skills__main-image {
   height: 30vh;
   width: 100%;
@@ -198,7 +213,7 @@
 .skills__item {
   padding: 1rem;
   position: relative;
-  border-left: 5px solid #A55364;
+  border-left: 5px solid #90C0D1;
   overflow: hidden;
   list-style-type: none;
 }
@@ -206,6 +221,7 @@
   justify-self: center;
   -ms-flex-item-align: center;
       align-self: center;
+  color: #90C0D1;
 }
 .skills__skill {
   font-size: 1rem;
@@ -232,29 +248,29 @@
 
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 body {
   background: #272727;
-  color: #A55364;
+  color: #FAF9F6;
   height: 60vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3 h4 {
   font-weight: 400;
 }
 
 a {
-  color: #A55364;
+  color: #90C0D1;
   text-decoration: none;
 }
 
 .text-title {
-  color: #A55364;
+  color: #90C0D1;
 }
 
 header {
