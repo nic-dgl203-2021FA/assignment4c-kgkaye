@@ -8,6 +8,10 @@
             font-size: 3rem;
         }
     }
+    .contact__list {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
 }
 
 
