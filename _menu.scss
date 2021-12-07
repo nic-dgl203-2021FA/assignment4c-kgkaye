@@ -1,0 +1,30 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    opacity: 0.9;
+}
+
+.menu-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+
+    &__item {
+        float: left;
+
+    }
+
+    &__link {
+        display: block;
+        color: white;
+        
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+}

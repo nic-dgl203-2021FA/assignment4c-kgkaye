@@ -7,7 +7,7 @@
 
 .home {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 30vh;
   overflow: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -17,15 +17,94 @@
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("images/self-image.jpg") center top;
   background-size: cover;
 }
+.home__name {
+  font-size: 5rem;
+  color: #A55364;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #A55364;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  opacity: 0.9;
+}
+
+.menu-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.menu-nav__item {
+  float: left;
+}
+.menu-nav__link {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 body {
   background: #272727;
-  color: set-text-color(#272727);
+  color: #A55364;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+a {
+  color: #A55364;
+  text-decoration: none;
+}
+
 .text-title {
   color: #A55364;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+main .social-icons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+main .social-icons a {
+  padding: 0.4rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+main .social-icons a:hover {
+  color: #272727;
+}
+
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: #272727;
 }
 /*# sourceMappingURL=main.css.map */
