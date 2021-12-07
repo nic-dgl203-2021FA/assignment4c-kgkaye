@@ -1,0 +1,34 @@
+.about {
+    &__main-image {
+        height: 30vh;
+        width: 100%;
+        background: 
+            linear-gradient(
+                to right,
+                rgba($primary-color, 0.9),
+                rgba($primary-color, 0.3)
+            ),
+            url('images/self-image.jpg') center top;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        .text-title {
+            font-size: 2rem;
+            margin-block-end: 1.5rem;
+        }
+    }
+
+    &__items {
+        width: 60vw;
+        margin: 4rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+
+  
+}
+

@@ -94,6 +94,39 @@
   width: 100%;
 }
 
+.about__main-image {
+  height: 30vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("images/self-image.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("images/self-image.jpg") center top;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.about__main-image .text-title {
+  font-size: 2rem;
+  -webkit-margin-after: 1.5rem;
+          margin-block-end: 1.5rem;
+}
+.about__items {
+  width: 60vw;
+  margin: 4rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
 @media screen and (min-width: 768px) {
   .portfolio__items {
     grid-template-columns: repeat(2, 1fr);
