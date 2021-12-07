@@ -3,10 +3,16 @@
     .portfolio {
         &__items {
             grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
         }
         .text-title {
             font-size: 3rem;
         }
+    }
+
+    .skills__items {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
     }
     .contact__list {
         grid-template-columns: repeat(2, 1fr);
