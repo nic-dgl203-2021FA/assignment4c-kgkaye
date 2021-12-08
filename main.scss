@@ -1,3 +1,9 @@
+/* A lot of elements for this site were borrowed and adapted from the YouTube video,
+"Sass Tutorial for Beginners-CSS With Superpowers".
+URL https://www.youtube.com/watch?v=_a5j7KoflTs
+last visited Dec. 7, 2021*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import 'config';
 @import 'home';
 @import 'menu';
@@ -12,7 +18,7 @@ body {
     background: $primary-color;
     color: $white;
     height: 60vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3 h4 {
