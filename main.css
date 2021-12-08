@@ -40,6 +40,10 @@ last visited Dec. 7, 2021*/
   padding: 0.5rem;
 }
 
+/*The menu was lifted and lightly addapted from the YouTube video,
+"Sass Tutorial for Beginners-CSS With Superpowers".
+URL https://www.youtube.com/watch?v=_a5j7KoflTs
+last visited Dec. 7, 2021*/
 .menu-btn {
   position: absolute;
   z-index: 1;
@@ -186,7 +190,7 @@ last visited Dec. 7, 2021*/
 }
 
 .portfolio__main-image {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(40, 39, 40, 0.9)), to(rgba(40, 39, 40, 0.3))), url("images/self-image.jpg") center top;
   background: linear-gradient(to right, rgba(40, 39, 40, 0.9), rgba(40, 39, 40, 0.3)), url("images/self-image.jpg") center top;
@@ -231,11 +235,11 @@ last visited Dec. 7, 2021*/
   color: #90C0D1;
 }
 .portfolio__item1 {
-  width: 60vw;
+  grid-column: 1/3;
 }
 
 .about__main-image {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(40, 39, 40, 0.9)), to(rgba(40, 39, 40, 0.3))), url("images/self-image.jpg") center top;
   background: linear-gradient(to right, rgba(40, 39, 40, 0.9), rgba(40, 39, 40, 0.3)), url("images/self-image.jpg") center top;
@@ -308,7 +312,7 @@ last visited Dec. 7, 2021*/
   padding: 2rem;
 }
 .skills__main-image {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(40, 39, 40, 0.9)), to(rgba(40, 39, 40, 0.3))), url("images/self-image.jpg") center top;
   background: linear-gradient(to right, rgba(40, 39, 40, 0.9), rgba(40, 39, 40, 0.3)), url("images/self-image.jpg") center top;
@@ -389,6 +393,9 @@ last visited Dec. 7, 2021*/
   }
   .portfolio .text-title {
     font-size: 3rem;
+  }
+  .portfolio__item1 {
+    grid-column: 1/3;
   }
 
   .skills__items {
